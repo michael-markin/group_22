@@ -1,50 +1,50 @@
-2. Create a folder: 
+#2. Create a folder: 
 	mkdir qa
-3. Switch to the derectory: 
+#3. Switch to the derectory: 
 	cd qa
-4. Create 3 folders: 
+#4. Create 3 folders: 
 	mkdir qa_hw qa_info qa_practice
-5. Switch to the directory: 
+#5. Switch to the directory: 
 	cd qa_hw
-6. Create 5 files: 
+#6. Create 5 files: 
 	touch 1.txt 2.txt 3.txt 4.json 5.json
-7. Create 3 folder: 
+#7. Create 3 folder: 
 	mkdir hw1 hw2 hw3
-8. List Files and Directories: 
+#8. List Files and Directories: 
 	ls -la
-9. Open any file: 
+#9. Open any file: 
 	vim 1.txt
-10. Write something: 
+#10. Write something: 
 	+i and print something, for example: "Test file"
-11. Save and exit: 
+#11. Save and exit: 
 	Esc + :wq
-12. One level up from the current directory: 
+#12. One level up from the current directory: 
 	cd ..
-13. Move 2 files to any directory: 
+#13. Move 2 files to any directory: 
 	mv 4.json 5.json ../qa_info/
-14. Copy 2 files to any directory: 
+#14. Copy 2 files to any directory: 
 	cp 2.txt 3.txt ../qa_info/
-15. Find a file by name: 
+#15. Find a file by name: 
 	find -name "*.txt"
     or
 	ls | grep .txt
-16. Monitor a file for changes and display the last 10 lines: 
-tail -f /logfile
-17. Show fist 2 lines of a text file: 
+#16. Monitor a file for changes and display the last 10 lines: 
+	tail -f /logfile
+#17. Show fist 2 lines of a text file: 
 	cat 1.txt | head -n2
-18. Show last 2 lines of a text file: 
+#18. Show last 2 lines of a text file: 
 	cat 1.txt | tail -n2
-19. Display the content of a file, page by page is a file is too big: 
+#19. Display the content of a file, page by page is a file is too big: 
 	less 1.txt
-20. Show data and time: 
+#20. Show data and time: 
 	date
 
-Task:
-1. Send an http request to a server: 
+#Task:
+#1. Send an http request to a server: 
 	curl -i "http://162.55.220.72:5005/object_info_3?name=Vadim&age=3
 	2&salary=1000"
 
-2. Write a script which will execute steps 3, 4, 5, 6, 7, 8, 13.
+#2. Write a script which will execute steps 3, 4, 5, 6, 7, 8, 13.
 
 # !/bin/bash
 mkdir QA
