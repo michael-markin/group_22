@@ -1,13 +1,13 @@
 ##### Create a folder:
-```
+```bash
 mkdir qa
 ```
 ##### Switch to the derectory:
-```
+```bash
 cd qa
 ```
 ##### Create 3 folders:
-```
+```bash
 mkdir qa_hw qa_info qa_practice
 ```
 ##### Switch to the directory:
@@ -86,7 +86,7 @@ curl -i "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
 ```
 ##### Write a script which will execute steps 3, 4, 5, 6, 7, 8, 13.
 
-~~~ 
+~~~bash
 # !/bin/bash
 
 mkdir QA
