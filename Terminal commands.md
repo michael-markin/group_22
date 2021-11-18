@@ -1,13 +1,13 @@
 ##### Create a folder:
-```bash
+```fish
 mkdir qa
 ```
 ##### Switch to the derectory:
-```bash
+```fish
 cd qa
 ```
 ##### Create 3 folders:
-```bash
+```fish
 mkdir qa_hw qa_info qa_practice
 ```
 ##### Switch to the directory:
