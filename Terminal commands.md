@@ -81,7 +81,7 @@ date
 #### Task:
 
 ##### Send an http request to a server:
-```
+```fish
 curl -i "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
 ```
 ##### Write a script which will execute steps 3, 4, 5, 6, 7, 8, 13.
