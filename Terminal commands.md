@@ -1,5 +1,5 @@
 ##### Create a folder:
-```bash
+```fish
 mkdir qa
 ```
 ##### Switch to the derectory:
